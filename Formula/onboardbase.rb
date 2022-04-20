@@ -1,8 +1,8 @@
 class Onboardbase < Formula
     desc "Everything you need to get started with Onboardbase"
     homepage "https://docs.onboardbase.com"
-    url "https://onboardbase-cli.fra1.digitaloceanspaces.com/onboardbase-v1.5.4/onboardbase-v1.5.4.tar.gz"
-    sha256 "a3c6ff7da6d61b107244a8fdd3b17fdf91e056e6c7efe7caafae29297e6f4377"
+    url "https://onboardbase-cli.fra1.digitaloceanspaces.com/onboardbase-v1.5.5/onboardbase-v1.5.5.tar.gz"
+    sha256 "98ca75f595736b0472f18d754c023a90a7495a4a12138c712e13a8b4ad68fa89"
     depends_on "onboardbase/brew/onboardbase-node" => "12.21.0"
   
     def install
